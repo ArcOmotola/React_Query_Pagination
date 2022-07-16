@@ -22,3 +22,6 @@ export const useSuperHeroData = (heroId) => {
             },
     })
 }
+
+
+//for graceful data fetching
