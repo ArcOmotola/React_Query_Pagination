@@ -6,7 +6,7 @@ export default function RQSuperHeroPage() {
   const { isLoading, data, isError, error } = useSuperHeroData(heroId);
 
   if (isLoading) {
-    return <h2>Loading....</h2>;
+    return <h2>Loading...</h2>;
   }
 
   if (isError) {
